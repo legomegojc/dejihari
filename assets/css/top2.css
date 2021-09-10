@@ -138,6 +138,12 @@ a[target=_blank][rel=nofollow] {
   position: absolute;
   left: 200px;
 }
+.news-list .text .text_a {
+  text-align: left;
+}
+.news-list .inc_a {
+  margin-bottom: 20px;
+}
 .day.new::after {
   content: "NEW";
   color: #F33;
