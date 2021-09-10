@@ -5,11 +5,12 @@
 }
 /* section-top */
 .section-top__image {
-  max-height: 900px;
+  max-height: 1000px;
   height: 100vh;
   width: 100%;
   background-image: url("../images/top/blue.png");
   background-position: center;
+      background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
