@@ -143,6 +143,13 @@ a[target=_blank][rel=nofollow] {
   position: absolute;
   left: 150px;
 }
+.news-list .text .text_a {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.news-list .inc_a {
+  margin-bottom: 20px;
+}
 @media(max-width:1160px) {
   .section-news {
     margin-top: 20px;
@@ -304,12 +311,7 @@ a[target=_blank][rel=nofollow] {
   right: 5px;
   font-size: 1.2rem;
 }
-.news-list .text .text_a {
-  text-align: left;
-}
-.news-list .inc_a {
-  margin-bottom: 20px;
-}
+
 @media(max-width:1160px) {
   .section-blog {
     margin-top: 20px;
