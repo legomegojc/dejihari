@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/* CSS Document */
+.main {
+  background-color: #f6f8f9;
+}
+/* section-top */
+.section-top__image {
+  max-height: 900px;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/top/blue.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media(max-width:1160px) {
+  .section-top__image {
+    height: 100vh;
+    background-image: url("../images/top/blue.png");
+    background-position: bottom;
+    background-size: auto 120%;
+    background-repeat: no-repeat;
+  }
+}
+a[target=_blank][rel=nofollow] {
+  padding-right: 20px;
+  background: url("../images/common/icon_blank.png") right center/11px auto no-repeat;
+}
+/* section-news */
+.section-news {
+  padding: 60px 0;
+  color: #fff;
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+.section-news h2 {
+  max-width: 1160px;
+  font-size: 3.2rem;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 40px;
+  border-bottom: solid 2px #fff;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.section-news h3 {
+  font-size: 2.4rem;
+  position: relative;
+  display: inline-block;
+  padding: 0 65px;
+  margin-top: 10px;
+  text-align: center;
+}
+.section-news h3:before,
+.section-news h3:after {
+  position: absolute;
+  top: calc(50% - 3px);
+  width: 50px;
+  height: 6px;
+  content: '';
+  border-top: solid 2px #fff;
+  border-bottom: solid 2px #fff;
+}
+
+.section-news h3:before {
+  left: 0;
+}
+
+.section-news h3:after {
+  right: 0;
+}
+.section-news__special {
+/*  border-bottom: dashed 2px #fff;*/
+/*  margin-bottom: 14px;*/
+  padding: 20px 0;
+}
+.section-news__special a {
+  text-decoration: none;
+  color: #fff;
+}
+.box17{
+  width: 90%;
+    margin:2em auto;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px #fff;
+    border-bottom: solid 2px #fff;
+}
+.box17:before, .box17:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: #fff;
+}
+.box17:before {left: 10px;}
+.box17:after {right: 10px;}
+.box17 p {
+    margin: 0; 
+    padding: 0;
+}
+.section-news ul {
+  list-style-type: none;
+}
+.section-news__special li {
+  padding: 8px 0 5px;
+}
+.section-news__more-link a {
+  text-decoration: none;
+  color: #72ACFF;
+  transition: color 0.5s;
+}
+.section-news__more-link a:hover {
+  color: #0143fb;
+}
+.section-news ol {
+  width: 90%;
+  margin: 0 auto;
+  list-style-type: none;
+}
+.section-news ol li {
+  display: flex;
+  padding: 8px 15px 5px;
+  font-size: 1.6rem;
+}
+.section-news ol a {
+  color: #fff;
+}
+.news-list time {
+  display: flex;
+}
+.news-list .text {
+  position: absolute;
+  left: 200px;
+}
+.day.new::after {
+  content: "NEW";
+  color: #F33;
+  position: absolute;
+  left: 150px;
+}
+@media(max-width:1160px) {
+  .section-news {
+    margin-top: 20px;
+    padding: 20px 24px;
+  }
+  .section-news h2 {
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+  }
+  .section-news h3 {
+    font-size: 2.0rem;
+  }
+  .section-news ul {
+    list-style-type: none;
+  }
+  .section-news__special li {
+    padding: 8px 0 5px;
+  }
+  .section-news__more-link a {
+    text-decoration: none;
+    color: #72ACFF;
+    transition: color 0.5s;
+  }
+  .section-news__more-link a:hover {
+    color: #0143fb;
+  }
+  .section-news ol {
+    width: 90%;
+    margin: 0 auto;
+    list-style-type: none;
+  }
+  .section-news ol li {
+    display: flex;
+    padding: 8px 15px 5px;
+    font-size: 1.6rem;
+  }
+  .news-list time {
+    display: flex;
+  }
+  .news-list .text {
+    position: absolute;
+    left: 200px;
+  }
+  .day.new::after {
+    content: "NEW";
+    color: #F33;
+    position: absolute;
+    left: 150px;
+  }
+}
+/* sention-works */
+.section-works {
+  padding: 60px 0;
+  color: #fff;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.section-works h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 40px;
+  border-bottom: solid 2px #fff;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.section-works ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-works ul li {
+  padding: 8px 10px;
+}
+.section-works ul li img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+@media(max-width:1160px) {
+  .section-works {
+    margin-top: 20px;
+    padding: 20px 24px;
+  }
+  .section-works h2 {
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+  }
+  .section-works ul li img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* blog */
+.section-blog {
+  padding: 60px 0;
+  color: #fff;
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.section-blog h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  display: block;
+  padding-bottom: 40px;
+  border-bottom: solid 2px #fff;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.listA .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listA article {
+  flex: 1 1 250px;
+  display: flex;
+  border: solid 1px #ddd;
+  margin: 10px;
+}
+.listA h3 {
+  font-size: 1.6rem;
+}
+.listA p {
+  font-size: 1.4rem;
+}
+.listA .photo {
+  min-height: 150px;
+  height: 200px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.listA .noimage {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #CBCBCB;
+}
+.listA a {
+  flex: 1;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.listA .text {
+  background-color: #000;
+  padding: 10px;
+  min-height: 70px;
+  position: relative;
+}
+.listA .blog_date {
+  color: #ccc;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1.2rem;
+}
+.news-list .text .text_a {
+  text-align: left;
+}
+.news-list .inc_a {
+  margin-bottom: 20px;
+}
+@media(max-width:1160px) {
+  .section-blog {
+    margin-top: 20px;
+    padding: 20px 24px;
+  }
+  .section-blog h2 {
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+  }
+  .listA .none {
+    display: none;
+  }
+  .listA .text p {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
