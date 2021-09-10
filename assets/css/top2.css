@@ -143,13 +143,6 @@ a[target=_blank][rel=nofollow] {
   position: absolute;
   left: 150px;
 }
-.news-list .text .text_a {
-  text-align: left;
-  font-size: 1.2rem;
-}
-.news-list .inc_a {
-  margin-bottom: 20px;
-}
 @media(max-width:1160px) {
   .section-news {
     margin-top: 20px;
@@ -193,6 +186,13 @@ a[target=_blank][rel=nofollow] {
     position: absolute;
     left: 200px;
   }
+  .news-list .text .text_a {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.news-list .inc_a {
+  margin-bottom: 20px;
+}
   .day.new::after {
     content: "NEW";
     color: #F33;
