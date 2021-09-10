@@ -18,7 +18,7 @@
     height: 100vh;
     background-image: url("../images/top/blue.png");
     background-position: bottom;
-    background-size: auto 120%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
   }
 }
