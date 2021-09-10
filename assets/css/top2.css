@@ -128,6 +128,7 @@ a[target=_blank][rel=nofollow] {
 }
 .section-news ol a {
   color: #fff;
+  font-size: 1.6rem;
 }
 .news-list time {
   display: flex;
