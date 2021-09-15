@@ -212,6 +212,7 @@ a[target=_blank][rel=nofollow] {
   }
   .news-list .text .text_a {
     text-align: left;
+    font-size:1.6rem;
   }
   .news-list .inc_a {
     padding-bottom: 60px;
@@ -262,8 +263,8 @@ a[target=_blank][rel=nofollow] {
   }
   .section-works ul li img {
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
   }
 }
 /* blog */
